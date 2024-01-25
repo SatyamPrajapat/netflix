@@ -1,0 +1,363 @@
+*{
+    padding:0px ;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.maincontainer{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    padding-left: 1%;
+    border-bottom: 2px solid black;
+    background-image: radial-gradient(rgba(25, 23, 23, 0.848),rgba(0,0,0,0.2)), url(./net\ flix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navContainer{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    
+
+}
+.logoContainer{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid white; */
+    justify-content:end ;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 10%;
+    font-size: 3rem;
+}
+.navButtons{
+    height: 100%;
+    /* border: 2px solid white; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+.languageDropdown{
+    background-color: transparent;
+    color: white;
+    height: 50%;
+    width: 18%;
+    font-size: 1.5rem;
+    padding-left: 2%;
+    border-radius: 7%;
+
+
+}
+.SigninButton{
+    height: 50%;
+    width: 15%;
+    background-color: #e50914;
+    margin-left: 1%;
+    padding: 0.5%;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10%;
+}
+.part{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    font-size: 1.5rem;
+    text-align: center;
+
+.emailcontainer{
+    height: 15%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+}
+
+#emailholder{
+    background-color:inherit;
+    width: 60%;
+    height: 60%;
+    padding-left: 0.7%;
+    font-size: 1.5rem;
+    outline: none;
+    color: white;
+    background-color: rgba(22, 21, 21, 0.25);
+    
+
+
+}
+#emailholder::placeholder{
+    opacity: 1;
+    color: white;
+
+    
+}
+#getstarted{
+    background-color: #e50914;
+    color: white;
+    font-size: 1.5rem;
+    margin: 2%;
+    width:20% ;
+    height: 60%;
+}
+.section{
+    height: 80vh;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+   justify-content: center;
+   align-items: center;
+}
+.textsection{
+    
+    font-size: 1.5rem;
+    height: 100%;
+    width: 40%;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+.imgsection{
+    height: 80%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    padding-right: 10%;
+}
+.section1{
+    height: 80vh;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+   justify-content: center;
+   align-items: center;
+
+}
+.textsection1{
+    
+    font-size: 1.5rem;
+    height: 100%;
+    width: 40%;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+}
+.imgsection1{
+    height: 80%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;  
+}
+.section2{
+    height: 80vh;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+   justify-content: center;
+   align-items: center;
+}
+.textsection2{
+    
+    font-size: 1.5rem;
+    height: 100%;
+    width: 40%;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+   
+    
+ 
+
+}
+.imgsection2{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    padding-right: 10%;
+    
+}
+.section3{
+    height: 80vh;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+   justify-content: center;
+   align-items: center;
+}
+.textsection3{
+    
+    font-size: 1.5rem;
+    height: 100%;
+    width: 40%;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    
+    
+ 
+
+}
+.imgsection3{
+    height: 80%;
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    padding-left: 5%;
+   
+}
+.faq{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    border: white;
+    align-items: center;
+    justify-content: center;
+  
+    border-bottom: 1.4vh solid rgb(73, 72, 74);
+    display: flex;
+    flex-direction: column;
+}
+.caption{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 5%;
+       
+}
+.questions{
+    color: black;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5%;padding-top: 2%;
+    
+
+}
+.faqBox{
+    width: 80%;
+    height: 12%;
+    background-color: #2d2d2d;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 2%;
+    margin: 1%;
+}
+.emailcontainer1{
+    height: 15%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+#emailholder1{
+    background-color:inherit;
+    width: 50%;
+    height: 60%;
+    padding-left: 0.7%;
+    font-size: 1.5rem;
+    outline: none;
+    color: white;
+    
+
+
+}
+#emailholder1::placeholder{
+    opacity: 1;
+    color: white;
+
+    
+}
+#getstarted1{
+    background-color: #e50914;
+    color: white;
+    font-size: 1.5rem;
+    margin: 2%;
+    width:20% ;
+    height: 60%;
+}
+.para{
+    color: white;
+    font-size: 1.3rem;   
+}
+.Foot{
+width: 100%;
+height: 60vh;
+background-color: black;
+color: white;
+font-size: 1.2rem;
+display: flex;
+color: white;
+justify-content: center;
+flex-direction: column;
+padding: 10%;
+}
+.white{
+    color: white;
+}
+
+
+.End{
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 3%;
+}
+.languageDropdown2{
+    height: 5vh;
+    width: 15%;
+    font-size: 1.5rem;
+}
+
